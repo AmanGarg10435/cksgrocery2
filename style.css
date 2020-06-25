@@ -244,7 +244,7 @@ table {
         font-size: 3.5vw;
     }
     #quote{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     #source{
         font-size: 2.5vw;
@@ -252,6 +252,13 @@ table {
     .information{
         font-size: 2.5vw;
     }
+    td{
+        font-size: 3vw;
+    }
+    .itemheading{
+        font-size: 3.2vw !important;
+    }
+
     #grid-container{
         grid-template-rows: auto auto auto auto;
         grid-template-columns:1fr;
@@ -284,5 +291,10 @@ table {
         width: 100vw; 
         height: initial;
         margin-top: 3vh;
+    }
+    .welcome-image{
+        height: 100%;
+        width: auto;
+
     }
 }
